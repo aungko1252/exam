@@ -1,0 +1,33 @@
+Web Design Research
+  - The three major areas you research need to address before you begin to plan and create are:
+    1. How to develop a website that stands out
+    2. How to identify your audience
+    3. Which new website technology you should incorporate
+  - To gather ideas to make your website stand out:
+    - Explore other websites and identify those that impress you.
+    - Describe what made the information easy to find.
+    - List the reasons you would want to return.
+
+Identify your audience:
+- To identify and learn more about your website visitors:
+  - Are visitors to your website members of your audience?
+  - Did they find what they were looking for on your website?
+  - Was there anything they did not like about your website?
+
+Incorporate new web technology:
+- To determine the merit of these new technologies as they appear, prompt several questions:
+  - What specifically can this technology do to further the purpose of my website?
+- Will it appeal to my audience?
+- What will it cost to put it into action?
+------------------------------------------------------------------------------------------------------------------------
+TOOLS FOR CREATING WEB PAGE
+
+HTML defines a Web page through tags, or markups, codes that specify how text, graphic, and other elements display and where links lead. The Common Gateway Interface (CGI) is a specification that defines how information is transferred between a Web server and an outside source, such as a database. A CGI program manages the data exchange across the CGI. CGI programs perform different tasks and allow dynamic interaction, such as processing information submitted by users via a form.
+
+JavaScript, VBScript, and Perl are popular scripting languages utilized to write CGI programs or scripts.
+
+Practical Extraction and Reporting Language (Perl) is a third scripting language frequently utilized for creating CGI programs or scripts.
+
+Extensible Markup Language (XML) is a markup language that, through predefined or customized, self-defined tags, offers a designer greater freedom to arrange or present information than HTML.
+
+Wireless Markup Language (WML) is used to design Web pages specifically for microbrowsers such as handheld computers, PDAs, cellular telephones, and pagers.
