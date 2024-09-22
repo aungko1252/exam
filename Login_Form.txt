@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var rollNumber = "123456"; // Replace this with your roll number
+
+            if (username === "") {
+                alert("User Name is empty. Please enter User Name.");
+                return false;
+            }
+
+            if (password === "") {
+                alert("Password is empty. Please enter Password.");
+                return false;
+            }
+
+            if (username === "in" && password === rollNumber) {
+                window.location.href = "cleaning_service.htm";
+                return true;
+            } else {
+                alert("Invalid username or password.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form onsubmit="return validateForm()">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
