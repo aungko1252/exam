@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prepaid Amount Calculator</title>
+    <script>
+        function calculateBonus() {
+            var prepaidAmount = parseInt(document.getElementById("prepaidAmount").value);
+            var bonus = 0;
+
+            // Determine the bonus based on the prepaid amount
+            if (prepaidAmount === 10000) {
+                bonus = prepaidAmount * 1.0;
+            } else if (prepaidAmount === 5000) {
+                bonus = prepaidAmount * 0.5;
+            } else if (prepaidAmount === 1000) {
+                bonus = prepaidAmount * 0.3;
+            }
+
+            var totalAmount = prepaidAmount + bonus;
+
+            // Display the bonus and total amount
+            document.getElementById("bonusAmount").value = bonus;
+            document.getElementById("totalAmount").value = totalAmount;
+        }
+
+        function resetFields() {
+            // Reset all fields to their default values
+            document.getElementById("prepaidAmount").value = "";
+            document.getElementById("bonusAmount").value = "";
+            document.getElementById("totalAmount").value = "";
+        }
+    </script>
+</head>
+<body>
+    <h2>MPT Top-up</h2>
+    <form>
+        <label for="prepaidAmount">Prepaid Amount:</label>
+        <select id="prepaidAmount" name="prepaidAmount">
+            <option value="">Select</option>
+            <option value="10000">Ks 10000</option>
+            <option value="5000">Ks 5000</option>
+            <option value="1000">Ks 1000</option>
+        </select><br><br>
+
+        <label for="bonusAmount">Bonus Amount:</label>
+        <input type="text" id="bonusAmount" name="bonusAmount" readonly><br><br>
+
+        <label for="totalAmount">Total Amount:</label>
+        <input type="text" id="totalAmount" name="totalAmount" readonly><br><br>
+
+        <input type="button" value="Calculate" onclick="calculateBonus()">
+        <input type="button" value="Reset" onclick="resetFields()">
+    </form>
+</body>
+</html>
+
