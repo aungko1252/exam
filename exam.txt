@@ -1,0 +1,30 @@
+Exam- Assessing information on the web,Web Design Role
+Exam1 - Web Design Research,TOOLS FOR CREATING WEB PAGE
+Exam2 - Writing for the Web,Basic Design Principles,Advantages of Web Publishing
+
+Assessing information on the web
+
+- Connecting to the web
+- Dial-up lines
+- Dedicated lines
+- ISDN lines
+- DSL
+- Cable television lines
+- T-carrier lines
+
+Service Providers
+
+An internet service provider (ISP) is a business that has a permanent internet connection and provides temporary connections to individuals and companies free or for a fee. Two types of ISPs are regional and national. A regional ISP usually provides access to the internet through one or more telephone numbers local to a specific geographic area. A national ISP is a large business that provides local telephone numbers in most major cities and towns nationwide.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Web design role:  
+  The role depicts the responsibilities, not the specific position title that might be assigned.
+
+  - Writer/Editor: Create and revise the text that visitors read when they visit a Web site.
+  - Multimedia Developer: Design and produce animation, digital video and audio, 2D and 3D models, and other media elements to include in a Web site.
+  - Artist/Graphic Designer: Create original art such as logos or stylized type, and frequently the overall design concept for a Web site.
+  - Web Page Designer: Primary role is to convert text into HTML documents.
+
+- Web Programmer: A Web Programmer must be highly skilled in advanced programming languages, such as Practical Extraction and Report Language (Perl), Java, JavaScript, and Virtual Reality Modeling Language (VRML).
+  
+- Webmaster: A Webmaster's responsibilities vary dramatically, depending primarily on the staffing and other resources devoted to developing a Web site.
+-----------------------------------------------------------------------------------------
