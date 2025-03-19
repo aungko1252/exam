@@ -1,0 +1,31 @@
+Process Improvement
+Attributes,The current,Process model,Changes,Understandability,Visibility,Do the,Supportability,Acceptibilty,Is the defined,Reliabilty,designed,Robustness,Maintainability,Rapidty
+
+The Staged CMMI Model
+The process,Requirement,plan,Project monitoring and control,provide,Supplier,Manage,Ensure,Measurement,Develop,ProcessAndProduct,Provide,Configuration
+
+Establishing A Software Metrics Programs
+B,W,S,E,F,I,I,D,IA,P   Do,Large,response time,CCP,high-priority
+
+Use-Case Oriented Metrics
+
+Use-case as a normalization measure similar to LOC or FP. Like FP, the use-case is defined early in the software process, allowing it to be used for estimation before significant modeling and construction activities are initiated. The use-case is independent of programming language. The number of use-case is directly proportional to the size of the application in LOC.
+
+⸻
+
+Web Engineering Project Metrics
+
+The objective of all Web engineering projects is to build a Web application (WebApp) that delivers a combination of content and functionality to the end-user.
+ • Number of static Web pages: Web pages with static content are the most common of all WebApp features.
+ • Number of dynamic Web pages: Web pages with dynamic content are essential in all e-commerce applications, search engines, financial applications, and many other WebApp categories.
+ • Number of internal page links: Internal page links are pointers that provide a hyperlink to some other Web page within the WebApp. This measure provides an indication of the degree of architectural coupling within the WebApp.
+
+⸻
+
+ • Number of persistent data objects: One or more persistent data objects may be accessed by a WebApp. As the number of persistent data objects grows, the complexity of the WebApp also grows, and effort to implement it increases proportionally.
+ • Number of external systems interfaced: WebApps must often interface with “backroom” business applications.
+ • Number of static content objects: Static content objects encompass static text-based, graphical, video, animation, and audio information.
+ • Number of dynamic content objects: Dynamic content objects are generated based on end-user actions and encompass internally generated text-based, graphical, video animation, and audio information.
+ • Number of executable functions: An executable function provides some computational service to the end-user.
+
+Each of the measures noted above can be determined at a relatively early stage of the Web engineering process.
