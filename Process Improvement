@@ -1,0 +1,30 @@
+Process Improvement
+
+Process improvement is a cyclical activity. It involves three principal stages:
+ 1. Process Measurement
+Attributes of the current project or the product are measured. The aim is to improve the measures according to the goals of the organization involved in process improvement.
+ 2. Process Analysis
+The current process is assessed, and process weaknesses and bottlenecks are identified. Process models that describe the process are usually developed during this stage.
+ 3. Process Change
+Changes to the process that have been identified during analysis are introduced.
+
+Figure 28.1 Process Characteristics
+
+Process Characteristic
+Description
+Understandability
+To what extent is the process explicitly defined and how easy is it to understand the process definition?
+Visibility
+Do the process activities culminate in clear results so that the progress of the process is externally visible?
+Supportability
+To what extent can CASE tools be used to support the process activities?
+Acceptability
+Is the defined process acceptable to and usable by the engineers responsible for producing the software product?
+Reliability
+Is the process designed in such a way that process errors are avoided or trapped before they result in product errors?
+Robustness
+Can the process continue in spite of unexpected problems?
+Maintainability
+Can the process evolve to reflect changing organizational requirements or identified process improvements?
+Rapidity
+How fast can the process of delivering a system from a given specification be completed?
