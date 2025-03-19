@@ -7,6 +7,10 @@ The process,Requirement,plan,Project monitoring and control,provide,Supplier,Man
 Establishing A Software Metrics Programs
 B,W,S,E,F,I,I,D,IA,P   Do,Large,response time,CCP,high-priority
 
+
+
+
+_________________________________________________________________________________________
 Use-Case Oriented Metrics
 
 Use-case as a normalization measure similar to LOC or FP. Like FP, the use-case is defined early in the software process, allowing it to be used for estimation before significant modeling and construction activities are initiated. The use-case is independent of programming language. The number of use-case is directly proportional to the size of the application in LOC.
