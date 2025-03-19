@@ -1,0 +1,24 @@
+The Staged CMMI Model
+
+The staged CMMI model is comparable with the Software CMM in that it provides a means to assess an organization’s process capability at one of five levels. The process areas as defined in the model associated with the second level (the managed level) are:
+ 1. Requirements Management
+Manage the requirements of the project’s product and product components, and identify inconsistencies between those requirements and the project’s plans and work products.
+ 2. Project Planning
+Establish and maintain plans that define project activities.
+ 3. Project Monitoring and Control
+Provide understanding into the project progress so that appropriate corrective actions can be taken when the project performance deviates significantly from the plan.
+ 4. Supplier Agreement Management
+Manage the acquisition of products and services from external suppliers for which a formal agreement exists. Ensures that all supplier agreements are well documented and controlled.
+ 5. Measurement and Analysis
+Develop and sustain a measurement capability that is used to support management information needs.
+ 6. Process and Product Quality Assurance
+Provide staff and management with objective insight into the processes and associated work products.
+ 7. Configuration Management
+Establish and maintain the integrity of work products using configuration identification, configuration control, configuration status accounting, and configuration audits.
+
+⸻
+
+Project-Planning Process Being a Managed Process:
+ • Establish and maintain an organizational policy for planning and performing the project planning process.
+ • Monitor and control the project-planning process against the plan and take appropriate corrective action.
+ • Review the activities’ status and results of the project planning process with high-level management and resolve issues.
