@@ -1,0 +1,123 @@
+Book.cs
+
+public class Book
+{ 
+    private int numPages;
+
+    public Book()
+    {
+        numPages = 95;
+    }
+
+    public Book(int pages)
+    {
+        numPages = pages;
+    }
+
+    public int GetNumberPages()
+    {
+        return numPages;
+    }
+}
+
+public class BigBook : Book
+{
+    public BigBook() : base(958) { }
+}
+
+Form1.cs
+
+public Form1()
+{
+    InitializeComponent();
+}
+
+private void btnShowBooks_Click(object sender, EventArgs e)
+{
+    Book defaultBook = new Book();
+    Book customBook = new Book(150);
+    BigBook largeBook = new BigBook();
+
+    MessageBox.Show($"Default Book Pages: {defaultBook.GetNumberPages()}", "Book Information");
+    MessageBox.Show($"Custom Book Pages: {customBook.GetNumberPages()}", "Book Information");
+    MessageBox.Show($"Big Book Pages: {largeBook.GetNumberPages()}", "Book Information");
+}
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+Person.cs
+
+class Person
+{
+    protected int age;
+
+   
+    public void Greet()
+    {
+        MessageBox.Show("Hello!");
+    }
+
+   
+    public void SetAge(int age)
+    {
+        this.age = age;
+    }
+}
+
+Student.cs
+
+class Student : Person
+{
+    public void Study()
+    {
+        MessageBox.Show("I'm studying");
+    }
+
+    public void ShowAge()
+    {
+        MessageBox.Show($"My age is {age} years old.");
+    }
+
+}
+
+Professor.cs
+
+class Professor : Person
+{
+    public void Explain()
+    {
+        MessageBox.Show("I'm explaining");
+    }
+}
+
+Form1.cs
+
+public Form1()
+{
+    InitializeComponent();
+}
+
+private void btnPerson_Click(object sender, EventArgs e)
+{
+    Person person = new Person();
+    person.Greet();
+}
+
+private void btnStudent_Click(object sender, EventArgs e)
+{
+    Student student = new Student();
+    student.SetAge(20);
+    student.Greet();
+    student.ShowAge();
+    student.Study();
+}
+
+private void btnProfessor_Click(object sender, EventArgs e)
+{
+    Professor professor = new Professor();
+    professor.SetAge(45);
+    professor.Greet();
+    professor.Explain();
+}
+
