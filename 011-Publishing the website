@@ -1,0 +1,26 @@
+PUBLISHING THE WEB SITE 
+
+With the Web site thoroughly tested and any problems corrected, you can proceed to make it available to your audience. Before making your site live on the Web, you must prepare by: 
+
+1. Acquiring server space. 
+2. Obtaining a domain name. 
+3. Uploading your Web site. 
+
+Acquiring Server Space 
+
+The initial step in making your site live on the Web is to acquire server space. So visitors can no server view your site on the Web, all the files that comprise it must be uploaded to a Web server. 
+
+Obtaining a Domain Name
+
+The second step in making your site live on the Web is obtaining a domain name. The Domain Name System (DNS) is a system on the Internet that stores domain names and their corresponding IP addresses.
+ 
+Uploading Your Web Site 
+
+The third step to making your site live on the Web is uploading, or transmitting, all the files that comprise your Web site including Web pages, images, audio, video, and animation to the Internet. The following section discusses four methods for uploading a Web site: FTP applications, Web authoring packages, Web Wizard, and Web Folders. 
+
+Similarly to the criteria for testing a Web site before you publish it, you should check the following components after it has gone live: 
+
+• Determine that all images display properly. 
+• Make certain that no broken links exist.. 
+• Ensure all interactive elements such as forms are functioning properly. 
+• If any changes are necessary, correct the source file(s) on your local computer.
